@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-style: none;
+}
+
+body{
+    background: url('https://images.unsplash.com/photo-1683399457518-dd76d33dc54a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=405&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.quotes-display{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    padding-top: 40px;
+    margin: auto;
+    align-items: center;
+    background-color: rgba(250, 235, 215, 0.16);
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+.btnB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#Qbtn{
+    height: 50px;
+    width: 90px;
+    padding: 5px;
+}
+p{
+    font-family: sans-serif;
+    padding: 10px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(28, 28, 28);
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 14, 14);
+    transition:ease-in 0.5s;
+}
